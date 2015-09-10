@@ -85,4 +85,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+		<repository>
+			<id>repo</id>
+			<url>${maven.repo.dir}/releases</url>
+		</repository>
+		
+		<snapshotRepository>
+			<id>repo</id>
+			<url>${maven.repo.dir}/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
